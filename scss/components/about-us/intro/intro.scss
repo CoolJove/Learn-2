@@ -1,0 +1,65 @@
+.intro {
+  padding: 30px 0;
+  &__wrapper {
+    gap: 30px;
+
+    &-left {
+      flex: 1 1 100%;
+
+      &-title {
+        font-weight: $font-bold;
+        font-size: $font-big;
+        line-height: 46px;
+        @extend %red-gradient;
+        margin-bottom: 28px;
+      }
+
+      &-text {
+        font-size: $font-md;
+        color: $main-color;
+      }
+    }
+
+    &-right {
+      flex-direction: column;
+      justify-content: center;
+      flex: 1 1 70%;
+      margin: 0;
+      position: relative;
+
+      &:before {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 4px;
+        height: 100%;
+        background-color: $grey-bg-separator;
+        left: 0;
+      }
+
+      &-title {
+        font-size: $font-way;
+        font-weight: $font-bold;
+        line-height: 43px;
+        @extend %red-gradient;
+      }
+
+      &-text {
+        font-size: $font-sm;
+        color: $main-color;
+        width: 100%;
+      }
+
+      &-list {
+        list-style: none;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+      }
+    }
+  }
+}
+
+
+
+

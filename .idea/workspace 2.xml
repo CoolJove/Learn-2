@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d70c9d22-c370-4bed-9fee-c44f6bb0d3ec" name="Changes" comment="update" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2FtV5KDInPq19K8e7eQcMXUD4jC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/andre/Desktop/webstorm-project/Hlegal-public/scss/components",
+    "list.type.of.created.stylesheet": "SCSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d70c9d22-c370-4bed-9fee-c44f6bb0d3ec" name="Changes" comment="" />
+      <created>1665311183231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665311183231</updated>
+      <workItem from="1665311186033" duration="2254000" />
+      <workItem from="1665329075080" duration="8000" />
+      <workItem from="1665329350981" duration="632000" />
+      <workItem from="1665331502400" duration="255000" />
+      <workItem from="1665331834486" duration="4725000" />
+      <workItem from="1665342088448" duration="322000" />
+      <workItem from="1665342420667" duration="43688000" />
+      <workItem from="1666385082551" duration="17000" />
+      <workItem from="1666635177169" duration="860000" />
+      <workItem from="1666636498377" duration="651000" />
+      <workItem from="1666637969123" duration="30912000" />
+      <workItem from="1666883774698" duration="35624000" />
+      <workItem from="1667235393895" duration="637000" />
+      <workItem from="1667236085218" duration="119000" />
+      <workItem from="1667236365305" duration="86000" />
+      <workItem from="1667236469441" duration="48960000" />
+      <workItem from="1667596587091" duration="4035000" />
+      <workItem from="1667671075110" duration="14189000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1666042958574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666042958574</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update media-header">
+      <created>1666123574736</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666123574736</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update media-header">
+      <created>1666384344729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666384344729</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update media-header">
+      <created>1666731489491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666731489491</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update our section">
+      <created>1666799825982</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666799825982</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update our section">
+      <created>1666799926267</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666799926267</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update our section media">
+      <created>1666893618990</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666893618990</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1666893668815</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666893668815</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update carousel and write mixins">
+      <created>1667074652308</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667074652308</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1667077503649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667077503649</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1667315531368</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667315531368</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <created>1667340976457</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667340976457</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update section and media">
+      <created>1667486532294</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667486532294</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update section and media">
+      <created>1667486546150</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667486546150</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <created>1667501493357</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667501493357</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update section and media">
+      <created>1667596920683</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667596920683</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update footer">
+      <created>1667681314792</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667681314792</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update">
+      <created>1667691546989</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667691546989</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1667691886806</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667691886806</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update">
+      <created>1667693283293</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667693283293</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="5565be54-7c6e-4890-9283-667c40986958">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/andre/Desktop/webstorm-project/Hlegal-public/css" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5565be54-7c6e-4890-9283-667c40986958" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update media-header" />
+    <MESSAGE value="update our section" />
+    <MESSAGE value="update our section media" />
+    <MESSAGE value="update carousel and write mixins" />
+    <MESSAGE value="update section and media" />
+    <MESSAGE value="update footer" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+</project>

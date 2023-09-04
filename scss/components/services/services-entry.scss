@@ -1,0 +1,94 @@
+.navbar-brand-way {
+  color: $white-color;
+}
+
+.service-info {
+  padding: 176px 0 60px;
+
+  &__first-block {
+    padding-bottom: 30px;
+    flex-direction: column;
+
+    img {
+      margin-bottom: 28px;
+    }
+
+    .btn {
+      margin-top: 28px;
+      padding: 18px 30px;
+    }
+  }
+
+  &__title {
+    @extend %font-big;
+    @extend %red-gradient;
+    margin-bottom: 28px;
+  }
+
+  &__text {
+    font-size: $font-md;
+    color: $white-color;
+  }
+
+  &__second-block {
+    padding-top: 15px;
+
+    .grey-line {
+      margin-bottom: 30px;
+    }
+
+    &-title {
+      color: white;
+      font-size: $font-most-md;
+      font-weight: $font-bold;
+    }
+
+    ul {
+      width: 50%;
+
+      li {
+        color: $white-color;
+        font-size: 18px;
+        margin-bottom: 15px;
+
+        &::marker {
+          color: $accent-color;
+        }
+      }
+    }
+  }
+}
+
+
+.our-service__wrap {
+  &:hover {
+    animation: shake-logo 0.3s linear;
+
+    @keyframes shake-logo {
+      0% {
+        transform: translate(0);
+      }
+      20% {
+        transform: translate(-2px, 2px);
+      }
+      40% {
+        transform: translate(-2px, -2px);
+      }
+      60% {
+        transform: translate(2px, 2px);
+      }
+      80% {
+        transform: translate(2px, -2px);
+      }
+      100% {
+        transform: translate(0);
+      }
+
+    }
+  }
+
+  &:hover a {
+    //color: $accent-color;
+    text-decoration: underline
+  }
+}

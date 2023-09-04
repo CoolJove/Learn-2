@@ -1,0 +1,57 @@
+.first-person {
+  padding: 30px 0 60px;
+
+  &__wrapper {
+    gap: 60px;
+  }
+  &__img {
+    object-fit: cover;
+    width: 400px;
+    height: 500px;
+    border-radius: $default-border-radius;
+  }
+  &__inner-wrapper {
+    width: 100%
+  }
+  &__info-link {
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__name {
+    @extend %font-big;
+    @extend %red-gradient;
+  }
+  &__link-post {
+    font-size: 14px;
+    color: rgba(179, 179, 186, 1);
+    margin-bottom: 10px;
+  }
+  &__link-mail, &__link-li {
+    font-size: 16px;
+    color: $active-regular;
+    margin-bottom: 10px;
+    &:hover{
+      color: $accent-color;
+    }
+  }
+  .grey-line {
+    color: rgba(230, 230, 240, 1);
+  }
+  &__info-text {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  &__info-way {
+    @extend %font-s;
+    margin-bottom: 15px;
+    color: $main-color;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+.team-first-person{
+  .footer__line{
+    display: none;
+  }
+}

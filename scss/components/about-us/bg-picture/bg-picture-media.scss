@@ -1,0 +1,18 @@
+.bg-picture{
+  @media (max-width: 1024px) {
+    &-title {
+      font-size: 86px;
+    }
+  }
+  @media (max-width: 768px) {
+    &-title {
+      font-size: 46px;
+    }
+  }
+  @media (max-width: 567px) {
+    &-title {
+      font-size: 35px;
+    }
+  }
+
+}

@@ -1,0 +1,74 @@
+.team-info {
+  padding: 30px 0;
+
+  &__title {
+    margin-bottom: 60px;
+    @extend %font-big;
+    line-height: 46px;
+    @extend %red-gradient;
+  }
+
+  &__wrapper {
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+
+  &__inner-wrapper {
+    flex-direction: column;
+    width: calc((100% / 3) - 40px);
+
+    &:hover .team-info__ellipse {
+      transform: scale(1.3);
+      transition: .7s;
+      border: 0.01em solid $grey-bg-text;
+    }
+
+
+    &:hover .team-info__personal-info-name,
+    &:hover .team-info__ellipse {
+      color: $accent-color;
+
+      path {
+        stroke: $accent-color;
+      }
+    }
+
+    &:active .team-info__personal-info-name,
+    &:active .team-info__ellipse{
+      background: $grey-bg-separator;
+    }
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 400px;
+      border-radius: $default-border-radius;
+      margin-bottom: 15px;
+    }
+
+  }
+
+  &__personal-info {
+    &-name {
+      @extend %font-sm ;
+      color: $main-color;
+      margin-bottom: 5px;
+
+    }
+
+    &-post {
+      font-size: $font-sm;
+      color: $grey-bg-text;
+      margin: 0;
+    }
+  }
+
+  &__ellipse {
+    width: 32px;
+    height: 32px;
+    border-radius: $border-radius-50;
+    justify-content: center;
+    align-items: center;
+    background: $grey-bg;
+  }
+}

@@ -1,0 +1,22 @@
+.achievements {
+  @media (min-width: 1400px) {
+    .container-lg{
+      max-width: 1800px;
+    }
+  }
+  @media (min-width: 568px) {
+      .media-hidden-indicators{
+        display: none;
+      }
+  }
+  @media (max-width: 567px){
+    .carousel-item{
+      .media-hidden{
+        display: none;
+      }
+      .achievements-img{
+        width: 100%;
+      }
+    }
+  }
+}

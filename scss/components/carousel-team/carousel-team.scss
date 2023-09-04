@@ -1,0 +1,73 @@
+.carousel-team {
+  padding: 60px 0;
+
+  .carousel-inner {
+    border-radius: 12px;
+  }
+
+  &__photo{
+    width: 400px;
+    overflow: hidden;
+  }
+  .photo-team {
+    @extend %picture;
+    position: relative;
+  }
+  .photo-team-1{
+    background-image: url("../assets/img/team/Alexander.png");
+  }
+  .photo-team-2{
+    background-image: url("../assets/img/team/Evgeny.png");
+  }
+  .photo-team-3{
+    background-image: url("../assets/img/team/Julia.png");
+  }
+
+  .carousel-item {
+    opacity: 0;
+    display: flex;
+
+    &.active {
+      transition: .5s;
+      opacity: 1;
+    }
+  }
+
+  .carousel-indicators{
+   bottom: -70px;
+    z-index: 1;
+
+    & [data-bs-target]{
+      width: 16px;
+      height: 16px;
+      border-radius: $border-radius-50;
+      background-color: $active-regular;
+    }
+  }
+
+  &__inner-info {
+    background-color: $grey-bg;
+    z-index: 1;
+    padding: $p-30;
+    @extend %section-link;
+    a {
+      padding-bottom: 5px;
+    }
+    &-description {
+      line-height: 46px;
+      @extend %font-big;
+      @extend %red-gradient;
+      margin-bottom: 30px;
+    }
+
+    &-name {
+     @extend %font-sm;
+      color: $grey-bg-text;
+    }
+
+    &-post {
+      color: $grey-bg-text;
+      font-size: $font-s;
+    }
+  }
+}

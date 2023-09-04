@@ -1,0 +1,25 @@
+.our-service {
+  @media (min-width: 1600px) {
+    .container {
+      max-width: 1600px;
+    }
+    &__info-columns{
+      justify-content: space-between;
+    }
+  }
+
+  @media (max-width: 576px) {
+
+    padding: 0 15px;
+   &__wrap{
+     padding: 30px 15px;
+   }
+    &__description {
+      padding: 0;
+      h3 {
+        font-size: $font-xl;
+      }
+    }
+
+  }
+}

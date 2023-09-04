@@ -1,0 +1,7 @@
+.ending{
+  @media(max-width: 1023px) {
+    &__wrapper {
+      flex-direction: column;
+    }
+  }
+}

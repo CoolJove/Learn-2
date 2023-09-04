@@ -1,0 +1,39 @@
+.menu-scroll {
+  padding: 60px 0 30px;
+
+  &__left {
+    text-align: end;
+  }
+
+  .list-group {
+    @extend %font-big;
+
+    .list-group-item {
+      padding: 10px 0;
+    }
+
+    .active {
+      @extend %red-gradient;
+    }
+  }
+
+  .vr {
+    width: 4px;
+    height: 100%;
+    opacity: 1;
+    background-color: $white-color-30;
+  }
+
+  .tab-pane {
+    color: white;
+
+    & > h4 {
+      @extend %font-xl;
+      margin: 30px 0;
+    }
+
+    p {
+      font-size: $font-md;
+    }
+  }
+}

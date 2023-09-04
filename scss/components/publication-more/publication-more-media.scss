@@ -1,0 +1,31 @@
+.publication-more {
+  @media (min-width: 1600px) {
+    .container-small {
+      max-width: 1600px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .container-small {
+      max-width: 1200px;
+    }
+  }
+  @media(max-width: 576px){
+    .container-small{
+     padding: 0 30px;
+    }
+    &__wrap-picture{
+      height: 300px;
+    }
+    &__wrapper{
+      &-title {
+        font-size: 20px;
+        &-sm {
+          font-size: $font-sm;
+        }
+      }
+      &-gradient {
+        font-size: $font-xl;
+      }
+    }
+  }
+}

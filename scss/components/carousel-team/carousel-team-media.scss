@@ -1,0 +1,32 @@
+.carousel-team {
+  @media (min-width: 1600px) {
+    .container-lg {
+      max-width: 1600px;
+    }
+  }
+  @media (max-width: 992px) {
+    .carousel-item{
+      flex-direction: column;
+    }
+    .carousel-team__photo{
+      width: 100%;
+    }
+    .photo-team{
+      height: 500px;
+    }
+
+  }
+  @media (max-width: 767px) {
+      .container-lg{
+        --bs-gutter-x: 3.75rem;
+      }
+  }
+  @media (max-width: 576px) {
+   &__inner-info{
+     &-description{
+       font-size: $font-xl;
+       line-height: 36px;
+     }
+   }
+  }
+}

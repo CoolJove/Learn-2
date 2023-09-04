@@ -1,0 +1,9 @@
+.contact{
+  @media (max-width: 1024px) {
+    &__wrapper{
+      flex-direction: column;
+      gap: 30px;
+    }
+
+  }
+}

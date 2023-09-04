@@ -1,0 +1,94 @@
+.header{
+
+  @media (min-width: 1024px) {
+    &__top-content{
+     justify-content: flex-end;
+    }
+  }
+
+  @media (max-width: 1024px) and (min-width: 767px) {
+    .navbar .container-lg{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  @media (max-width: 1024px){
+    &__top-content{
+      position: static;
+    }
+    .navbar{
+      padding: 15px 0 0 0;
+      &-brand{
+        margin: 0;
+      }
+      &-nav{
+        padding-top: 0;
+      }
+    }
+  }
+  
+  @media (max-width: 767px) {
+    &{
+      padding-top: 0;
+    }
+    &__top{
+      background-color: $white-color-20;
+
+      &-content{
+        margin-bottom: 0;
+        justify-content: space-between;
+        & > div:not(:last-child):after{
+         content: unset;
+        }
+
+      }
+      .container-lg{
+        padding: 10px 15px;
+      }
+      &-address, &-social{
+        display: none;
+      }
+    }
+
+    .navbar-toggler {
+      --bs-border-width: 0;
+      padding: 7px;
+      &:hover{
+        background-color: $white-color-20;
+        transition: .3s;
+      }
+      &:focus {
+        box-shadow: none;
+      }
+      svg{
+        fill: $white-color;
+      }
+    }
+    .navbar-collapse{
+      background-color: $white-color;
+      padding: 12px;
+      border-radius: $default-border-radius;
+      margin-top: 20px;
+      .nav-link{
+        border-radius: $default-border-radius;
+        padding: 7px 0;
+        text-align: center;
+        background-color: $grey-bg;
+        color: $active-regular;
+        font-size: $font-lg;
+        &.active{
+          border: none;
+          color: $accent-color;
+        }
+        &:active, &:hover, &:focus{
+          background-color: $grey-bg-separator;
+          transition: .3s;
+          color: $accent-color;
+        }
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,73 @@
+.our-service {
+  padding: 30px 0 60px;
+
+  &__description {
+    padding-bottom: 22px;
+
+    @extend %section-link;
+
+    a {
+      padding-bottom: 10px;
+    }
+
+    h3 {
+      @extend %font-big;
+      @extend %red-gradient;
+    }
+  }
+  &__info-columns {
+    img {
+      margin-bottom: 30px;
+    }
+    a {
+      @extend %section-link-hover;
+      margin-bottom: 15px;
+      font-size: $font-most-md;
+    }
+    p {
+      font-size: 16px;
+      color: $white-color;
+      margin-bottom: 0;
+    }
+  }
+
+  &__wrap {
+    padding: 30px;
+    &:hover {
+      animation: shake-logo 0.3s linear;
+      @keyframes shake-logo {
+        0% {
+          transform: translate(0);
+        }
+        20% {
+          transform: translate(-2px, 2px);
+        }
+        40% {
+          transform: translate(-2px, -2px);
+        }
+        60% {
+          transform: translate(2px, 2px);
+        }
+        80% {
+          transform: translate(2px, -2px);
+        }
+        100% {
+          transform: translate(0);
+        }
+
+      }
+    }
+
+    &:hover a {
+      text-decoration: underline
+    }
+    &:hover img{
+      border: 1px solid $accent-color;
+      border-radius: 22px;
+    }
+  }
+  &__wrap a:hover{
+    text-decoration: none;
+  }
+
+}

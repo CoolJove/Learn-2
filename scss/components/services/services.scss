@@ -1,0 +1,23 @@
+.services {
+  .company {
+    padding: 80px 0 0 0;
+  }
+
+  .our-service {
+    padding-top: 176px;
+  }
+
+  .navbar {
+    &-brand {
+
+      &-way {
+        color: $white-color;
+
+      }
+    }
+  }
+
+  .footer__line {
+    display: none;
+  }
+}

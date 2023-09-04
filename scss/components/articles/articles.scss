@@ -1,0 +1,131 @@
+.articles {
+  padding-top: calc(#{$p-30} * 2);
+  background-color: $grey-bg;
+
+  &__top-btn {
+    gap: 2px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 42px;
+    width: 233px;
+    background: $grey-bg-separator;
+    border: 2px solid $grey-bg-separator;
+    border-radius: $default-border-radius;
+    margin: 0 auto 30px;
+
+    input[name=articles-btn] {
+      display: none;
+    }
+
+    span {
+      cursor: pointer;
+      font-weight: 700;
+      padding: 6px 27px;
+      border-radius: 8px;
+      display: inline-block;
+      color: $main-color;
+    }
+
+    input[name="articles-btn"]:checked + span {
+      background-color: $white-color;
+    }
+  }
+  &__heading {
+    margin-bottom: 30px;
+    @extend %section-link;
+
+    &-link {
+      margin-bottom: 10px;
+    }
+
+    &-title {
+      @extend %red-gradient;
+      @extend %font-big;
+    }
+  }
+
+  &__wrapper {
+    gap: $g-30;
+    flex-wrap: wrap;
+    //padding-bottom: 30px;
+    &-card {
+      flex: 1 1 30%;
+      background: $white-color;
+      border-radius: 8px;
+      overflow: hidden;
+
+      &:hover &-wrap-title{
+        text-decoration: underline;
+      }
+      & &-wrap-title:hover{
+        text-decoration: none;
+      }
+
+      &:hover{
+        box-shadow: 7px 8px 25px -5px  $main-color;
+        transform: scale(1.001);
+        transition: 0.6s;
+      }
+
+      &-wrap {
+        padding: $p-30;
+        &-title {
+          display: block;
+          @extend %font-sm;
+          color: $active-regular;
+          &:hover{
+            color: $accent-color;
+            transition: .6s;
+          }
+        }
+        &-data {
+          font-weight: $font-bold;
+          font-size: 12px;
+          color: $grey-bg-text;
+          letter-spacing: 1px;
+        }
+        &-line {
+          margin: 15px 0;
+          border: 2px solid;
+          color: #E6E6F0;
+          opacity: 1;
+        }
+        &-text {
+          font-size: $font-s;
+        }
+      }
+      &-photo {
+        height: 200px;
+        overflow: hidden;
+      }
+    }
+  }
+  &__btn-wrapper{
+    padding-top: 30px;
+  }
+  &__btn{
+    padding: 18px 30px;
+  }
+
+  .image {
+    @extend %picture;
+
+  }
+
+  .image-publication-1 {
+    background-image: url("../assets/img/publication/Publication-1.png");
+  }
+  .image-publication-2 {
+    background-image: url("../assets/img/publication/Publication-2.png");
+  }
+  .image-publication-3 {
+    background-image: url("../assets/img/publication/Publication-3.png");
+  }
+  .image-publication-4 {
+    background-image: url("../assets/img/publication/Publication-4.png");
+  }
+  .image-publication-5 {
+    background-image: url("../assets/img/publication/Publication-5.png");
+  }
+}

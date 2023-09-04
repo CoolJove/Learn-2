@@ -1,0 +1,117 @@
+html {
+  scroll-behavior: smooth;
+  //плавная прокрутка без джаваскрипта
+}
+
+body {
+  font-family: $main-font;
+  font-size: $font-md;
+  font-weight: $font-regular
+}
+
+.bg-gradient {
+  position: relative;
+  border-radius: 0 0 $default-border-radius $default-border-radius;
+
+  &:before, &:after {
+    content: "";
+    display: block;
+    border-radius: 0 0 $default-border-radius $default-border-radius;
+    position: absolute;
+    height: $gradient-shadow-height;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &:before {
+    bottom: -10px;
+    background-color: #CACADB;
+    width: calc(100% - 20px)
+  }
+
+  &:after {
+    bottom: -20px;
+    background-color: #E7E7F2;
+    width: calc(100% - 40px)
+  }
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container-lg {
+  --bs-gutter-x: 60px;
+}
+
+
+.btn {
+  padding: 18px 0;
+  border: none;
+  @extend %font-sm;
+  color: $white-color;
+  background: $active-regular;
+  box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+  border-radius: $default-border-radius;
+
+  &:hover {
+    background: #0085FF;
+    color: $white-color;
+    transition: .5s;
+    transform: perspective(300px) rotateX(45deg);
+    border-bottom: 1px solid #323264;
+    box-shadow: 0 5px 3px rgb(36 163 255);
+  }
+
+  &:active {
+  --bs-btn-active-bg: #006CCF;
+  --bs-btn-active-color: #{$white-color};
+    border-bottom: none;
+  }
+}
+
+.d-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.grey-line {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 15px 0;
+  border-top: 4px solid;
+  opacity: inherit;
+
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
+  }
+}
+
+.navbar {
+  &-brand {
+    margin-top: -20px;
+
+    &:hover .navbar-brand-way {
+      color: $accent-color;
+      transition: .8s;
+      box-shadow: 0 0 65px -20px black;
+    }
+
+    .slash-nav {
+      margin-bottom: 14px;
+    }
+
+    &-way {
+      font-size: $font-way;
+      line-height: 44px;
+      color: $main-color;
+
+      &:hover, .navbar-brand {
+        color: $accent-color;
+      }
+    }
+  }
+}

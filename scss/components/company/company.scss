@@ -1,0 +1,114 @@
+.company {
+  padding: 45px 0 60px;
+
+  &__title {
+    @extend %font-s;
+    text-transform: uppercase;
+    color: $main-color;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .row a {
+    @extend %d-center;
+
+    &:hover {
+      border: 1px solid #000;
+      border-radius: 10px;
+      animation: shake-logo 0.3s linear;
+
+      @keyframes shake-logo {
+        0% {
+          transform: translate(0);
+        }
+        20% {
+          transform: translate(-2px, 2px);
+        }
+        40% {
+          transform: translate(-2px, -2px);
+        }
+        60% {
+          transform: translate(2px, 2px);
+        }
+        80% {
+          transform: translate(2px, -2px);
+        }
+        100% {
+          transform: translate(0);
+        }
+
+      }
+    }
+  }
+
+  &__logo {
+    &-first {
+      background-color: #1C4280;
+    }
+
+    &-second {
+      padding: 44px 12px;
+      background-color: #143646;
+    }
+
+    &-third {
+      background-color: #F48B30;
+    }
+
+    &-third, &-fifth {
+      padding: 38px 12px;
+    }
+
+    &-fourth {
+      background-color: #9E4DC3;
+    }
+
+    &-fourth, &-tenth {
+      padding: 39px 12px;
+    }
+
+    &-fifth {
+      background-color: #FD9339;
+    }
+
+    &-first, &-sixth {
+      padding: 36px 12px;
+    }
+
+    &-sixth {
+      background-color: #E2E2E4;
+    }
+
+    &-seventh {
+      padding: 29px 12px;
+      background-color: #C71C36;
+    }
+
+    &-eight {
+      padding: 22px 12px;
+      background-color: #DCF3F9;
+    }
+
+    &-nineth {
+      padding: 29px 12px;
+      background-color: #EAEAEA;
+    }
+
+    &-tenth {
+      background-color: #282240;
+    }
+
+    &-eleventh {
+      padding: 37px 12px;
+      background-color: #1D4568;
+    }
+
+    &-twelfth {
+      padding: 12px 12px;
+      background-color: #000;
+    }
+  }
+
+
+}

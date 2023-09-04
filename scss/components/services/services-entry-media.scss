@@ -1,0 +1,20 @@
+.service-info {
+
+
+  @media (max-width: 1024px) and (min-width: 768px) {
+    &{
+      padding-top: 260px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    &__second-block {
+      &-inner{
+        flex-wrap: wrap;
+      }
+      ul {
+        width: 100%;
+      }
+    }
+  }
+}
